@@ -6,7 +6,6 @@ body {
 
 .container {
   display: flex;
-  flex-wrap: flex;
   flex-direction: column;
   border: 1px solid gray;
   width: 100vw;
@@ -26,31 +25,31 @@ body {
   border: 1px solid gray;
   background: brown;
   width: 99%;
-  height: 60vh;
+  height: 59vh;
 }
 
 .c {
   border: 1px solid gray;
   background: yellowgreen;
   width: 99vw;
-  height: 19vh;
+  height: 20vh;
 }
 
-@media (min-width: 600px) {
+@media(min-width: 600px) {
 
   .container {
     display: flex;
-    /* flex-wrap: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
     border: 1px solid gray;
     width: 100vw;
-    height: 39%vh;
-    border: 1px gray;
-  }
+    height: 100%vh;
+      }
 
   .a {
+    min-width: 99vw;
     border: 1px solid gray;
     background: darkblue;
-    width: 95%;
     height: 35vh;
   
   }
@@ -58,13 +57,13 @@ body {
   .b {
     border: 1px solid gray;
     background: black;
-    width: 80%;
+    width: 80vw;
     height: 60vh;
   }
   
   .c {
     border: 1px solid gray;
-    background: pink;
+    background: green;
     width: 15vw;
     height: 60vh;
   }
