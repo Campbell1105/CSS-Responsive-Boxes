@@ -1,3 +1,125 @@
 body {
   background: peachpuff;
 }
+body {
+  background: papayawhip;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 100vw;
+}
+
+.a {
+  width: 99vw;
+  background: blue;
+  height: 20vh;
+}
+
+.b {
+  width: 32vw;
+  background: pink;
+  height: 20vh;
+}
+
+.c {
+  width: 32vw;
+  background: yellow;
+  height: 20vh;
+}
+
+.d {
+  width: 32vw;
+  background: green;
+  height: 20vh;
+}
+
+.e {
+  width: 32vw;
+  background: yellowgreen;
+  height: 20vh;
+}
+
+.f {
+  width: 32vw;
+  background: red;
+  height: 20vh;
+}
+
+.g {
+  width: 32vw;
+  background: rgb(53, 90, 103);
+  height: 20vh;
+}
+
+.h {
+  width: 99vw;
+  background: rgb(139, 107, 107);
+  height: 39vh;
+}
+
+
+@media (min-width: 600px) {
+  .a {
+    width: 99vw;
+    background: blue;
+    height: 32vh;
+    order: 1;
+  }
+  
+  .b {
+    width: 20vw;
+    background: pink;
+    height: 32vh;
+    order: 2;
+  }
+  
+  .c {
+    width: 20vw;
+    background: yellow;
+    height: 32vh;
+    order: 3;
+  }
+  
+  .d {
+    width: 20vw;
+    background: green;
+    height: 32vh;
+    order: 4;
+  }
+  
+  .e {
+    width: 20vw;
+    background: yellowgreen;
+    height: 32vh;
+    order: 6;
+  }
+  
+  .f {
+    width: 20vw;
+    background: red;
+    height: 32vh;
+    order: 7;
+  }
+
+
+  .g {
+    width: 20vw;
+    background: rgb(53, 90, 103);
+    height: 32vh;
+    order: 8;
+  }
+  
+  .h {
+    width: 25vw;
+    background: rgb(139, 107, 107);
+    height: 60vh;
+    order: 5;
+  }
+
+}
