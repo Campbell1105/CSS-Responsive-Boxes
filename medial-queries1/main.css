@@ -1,3 +1,28 @@
 body {
   background: blanchedalmond;
+  }
+
+.container {
+  display: flex;
+  width: 100%vw;
+  height: 100%vh;
+  border: 1px gray;
+}
+
+.a {
+  border: 1px gray;
+  background: lightblue;
+  width: 100%;
+  height: 200px;
+
+}
+
+.b {
+  border: 1px gray;
+  
+}
+
+.c {
+  border: 1px gray;
+  width: 100vw;
 }
