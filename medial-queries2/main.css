@@ -51,7 +51,7 @@ body {
 @media (min-width: 600px) {
   .a {
     width: 99vw;
-    background: white;
+    background: blue;
     height: 32vh;
     order: 1;
   }
